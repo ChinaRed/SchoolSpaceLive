@@ -227,7 +227,7 @@ section {
   left: 505px;
   width: 323px;
   height: 503px;
-  background: url("/assets/images/arrows_step1.png") no-repeat; }
+  background: url("../assets/images/arrows_step1.png") no-repeat; }
 
 .arrows_step2 {
   position: absolute;
@@ -235,7 +235,7 @@ section {
   left: -160px;
   width: 323px;
   height: 503px;
-  background: url("/assets/images/arrows_step2.png") no-repeat; }
+  background: url("../assets/images/arrows_step2.png") no-repeat; }
 
 .arrows_step3 {
   position: absolute;
@@ -244,7 +244,7 @@ section {
   z-index: -1;
   width: 323px;
   height: 503px;
-  background: url("/assets/images/arrows_step3.png") no-repeat; }
+  background: url("../assets/images/arrows_step3.png") no-repeat; }
 
 .arrows_step4 {
   position: absolute;
@@ -253,7 +253,7 @@ section {
   z-index: -1;
   width: 323px;
   height: 503px;
-  background: url("/assets/images/arrows_step4.png") no-repeat; }
+  background: url("../assets/images/arrows_step4.png") no-repeat; }
 
 .step {
   height: 250px;
