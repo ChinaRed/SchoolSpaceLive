@@ -1,0 +1,82 @@
+SCHOOL SCHEMA
+
+    [
+        {
+            "hero_image" : "image.png",
+            "school_name" : "Aikahi Elementary",
+            "location": {
+              "street_address" : "280 Beachwalk Ave",
+              "unit_number" : "103",
+              "city" : "Honolulu",
+              "zip_code" : 96815
+        },
+            "contact_info" : {
+              "phone_number" : 8087296888,
+              "email" : "aikahi@aikahi.com"
+        },
+            "facilities" : [
+              {
+                "cafeteria" : {
+                  "availability" : {
+                    "dates" : {
+                      "start_date" : "2015-08-12",
+                      "end_date" : "2015-08-12",
+                      "time" : {
+                        "start_time" : "1600",
+                        "end_time" : "2100"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "classroom_01" : {
+                  "availability" : {
+                    "dates" : {
+                      "start_date" : "2015-08-13",
+                      "end_date" : "2015-08-13",
+                      "time" : {
+                        "start_time" : "1200",
+                        "end_time" : "1400"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "classroom_02" : {
+                  "availability" : {
+                    "dates" : {
+                      "start_date" : "2015-08-14",
+                      "end_date" : "2015-08-14",
+                      "time" : {
+                        "start_time" : "1200",
+                        "end_time" : "1400"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "description" : "Plenty of free parking in front of the house. An easy 10 to 15 minute walk to the beaches and Waikiki.",
+            "images" : ["img_1.png", "img_2.png", "img_3.png"],
+            "price" : {
+              "rental" : "$100",
+              "janitor" : "$20",
+              "utilities" : "$5"
+        },
+            "amenities" : {
+              "wifi" : true,
+              "ac" : true,
+              "projector" : true,
+              "bathrooms" : true,
+              "microphone" : true,
+              "audio equipment" : false,
+              "video equipment" : true,
+              "tables" : true,
+              "chairs" : true
+            },
+            "rules" : "alcohol and tobacco are prohibited on school grounds",
+            "restrictions" : "schools will not be liable for any damages, all people must be vacated by the end time"
+        } 
+    ]

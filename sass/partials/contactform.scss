@@ -1,0 +1,56 @@
+#mc_embed_signup{
+  background: rgba(0,0,0,0); 
+  clear:left; 
+  font-size: 14px;
+  font-family: $body_font; 
+  
+  .mc-field-group{
+    padding-bottom: 15px !important;
+    // float: left !important;
+    // clear: none !important;
+    margin-right: 15px !important;
+    // width: 45% !important;
+  }
+
+  input{
+    background: rgba(255,255,255, 0.75);
+    border-radius: 5px;
+    height: 25px;
+  }
+
+  .btn{
+    margin: auto;
+    font-family: $header_font;
+    height: 60px;
+  }
+}
+
+// .submit_form{
+
+//   @include setwidth(25%);
+//   margin-bottom: 20px;
+
+//   input{
+//     display: block;
+//     @include setwidth(83%);
+//     margin-bottom: 5px;
+//     padding: 15px;
+//     @include borders (#ccc);
+//     background-color: rgba(255, 255, 255, 0.85);
+//   }
+
+//   .submit{
+//     @include setwidth(90%);
+//     margin: 10px auto 0;
+//     background-color: #D8D8D8;
+//     @include borders(#D8D8D8);
+//     padding: 15px 40px;
+//     @include setTransition(background-color);
+
+//     &:hover{
+//       background-color: #57a7e5;
+//       @include borders(#ccc);
+//     }
+//   }
+
+// }

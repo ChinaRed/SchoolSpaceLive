@@ -1,0 +1,301 @@
+/*Fonts*/
+/*Colors*/
+#mc_embed_signup {
+  background: transparent;
+  clear: left;
+  font-size: 14px;
+  font-family: "Lato", sans-serif; }
+  #mc_embed_signup .mc-field-group {
+    padding-bottom: 15px !important;
+    margin-right: 15px !important; }
+  #mc_embed_signup input {
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    height: 25px; }
+  #mc_embed_signup .btn {
+    margin: auto;
+    font-family: "proxima-nova", sans-serif;
+    height: 60px; }
+
+/*global*/
+body {
+  background-image: url("../assets/images/chalkboard_background.png");
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #34302D; }
+
+h1, h2, h3 {
+  font-family: "Lato", sans-serif; }
+
+span {
+  text-transform: uppercase;
+  font-family: "proxima-nova", sans-serif; }
+  span.green {
+    color: #86C543; }
+  span.white {
+    color: #fff; }
+
+#activity {
+  text-transform: uppercase;
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 5px; }
+
+/* Layout */
+header {
+  background-color: rgba(52, 48, 45, 0.5);
+  padding: 10px; }
+  header:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.logo {
+  width: 170px;
+  display: inline-block;
+  float: left;
+  font-size: 1.2em; }
+  .logo h3 {
+    text-transform: uppercase;
+    margin: 0; }
+    .logo h3.green {
+      color: #86C543; }
+    .logo h3.white {
+      color: #fff;
+      margin-top: -4px; }
+
+.headline {
+  text-align: center;
+  padding: 5px 0;
+  width: 70%;
+  float: left; }
+  .headline .header_icon {
+    position: absolute;
+    width: 65px; }
+  .headline h1 {
+    font-family: "proxima-nova", sans-serif;
+    display: inline-block;
+    text-transform: uppercase; }
+    .headline h1.green {
+      color: #86C543;
+      margin-right: 15px;
+      margin-bottom: 0; }
+    .headline h1.white {
+      color: #fff;
+      margin-left: 80px;
+      margin-bottom: 0; }
+
+.hero {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 15px 0 0;
+  border-bottom: 5px solid #c9c9c9;
+  height: 600px; }
+
+.jumbotron {
+  width: 60%;
+  margin: auto;
+  color: #fff; }
+  .jumbotron h2 {
+    margin-bottom: 0; }
+  .jumbotron .hero_icon {
+    width: 500px;
+    margin: auto;
+    height: 300px;
+    background: url("../assets/images/hula.png") no-repeat;
+    margin-bottom: 50px; }
+
+.btn {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em !important;
+  color: #fff;
+  padding: 15px 100px;
+  text-decoration: none;
+  border: 1px solid #86C543;
+  border-radius: 5px;
+  background-color: #8FB84D !important; }
+  .btn:hover {
+    background-color: #34302D !important;
+    color: #fff; }
+
+/*content layouts*/
+section {
+  padding: 20px; }
+  section h1 {
+    font-size: 2em; }
+  section:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+#what {
+  background-image: url("../assets/images/arrow_left-01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  #what p {
+    font-size: 1.2em; }
+
+#why {
+  background-image: url("../assets/images/arrow_right-01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  #why li {
+    font-size: 1.2em;
+    list-style: none; }
+    #why li span {
+      color: #88C34C;
+      font-size: 1.3em;
+      padding-right: 5px; }
+
+.sv {
+  background-color: #EDEAE3;
+  padding: 38px 0;
+  height: 240px; }
+
+.content_container {
+  width: 960px;
+  margin: auto; }
+
+.half {
+  width: 45%;
+  margin: auto;
+  padding: 15px;
+  margin-top: -30px; }
+
+/* How does it work layout */
+#steps_container {
+  width: 830px;
+  margin: auto; }
+  #steps_container:after {
+    content: "";
+    display: block;
+    clear: both; }
+  #steps_container section {
+    width: 70%; }
+
+.how_does_it_work {
+  text-align: center;
+  margin: 90px 0 50px 0;
+  font-weight: bold; }
+  .how_does_it_work h1 {
+    font-size: 3em; }
+
+.number {
+  background: url("../assets/images/locationicon.png") no-repeat;
+  background-size: cover;
+  margin: 0;
+  width: 33px;
+  height: 54px;
+  line-height: 2.5;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  z-index: -1; }
+
+.explanation {
+  margin-top: 45px;
+  width: 55%;
+  float: right; }
+  .explanation .number {
+    margin: -15px 0 0 10px; }
+  .explanation h2 {
+    margin-top: 0;
+    margin-left: 50px;
+    margin-bottom: 0; }
+  .explanation p {
+    margin: 10px 0 0 50px; }
+
+.arrows_step1 {
+  position: absolute;
+  top: 60px;
+  left: 505px;
+  width: 323px;
+  height: 503px;
+  background: url("/assets/images/arrows_step1.png") no-repeat; }
+
+.arrows_step2 {
+  position: absolute;
+  top: 75px;
+  left: -160px;
+  width: 323px;
+  height: 503px;
+  background: url("/assets/images/arrows_step2.png") no-repeat; }
+
+.arrows_step3 {
+  position: absolute;
+  top: 85px;
+  left: 505px;
+  z-index: -1;
+  width: 323px;
+  height: 503px;
+  background: url("/assets/images/arrows_step3.png") no-repeat; }
+
+.arrows_step4 {
+  position: absolute;
+  top: 90px;
+  left: -165px;
+  z-index: -1;
+  width: 323px;
+  height: 503px;
+  background: url("/assets/images/arrows_step4.png") no-repeat; }
+
+.step {
+  height: 250px;
+  position: relative; }
+  .step img {
+    width: 45%; }
+  .step:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+#contact {
+  background-color: rgba(52, 48, 45, 0.5);
+  background-image: url("../assets/images/chalkboard_background.png");
+  background-repeat: no-repeat; }
+
+.contact_us {
+  color: #fff;
+  text-align: center;
+  width: 600px;
+  margin: auto; }
+  .contact_us h2 {
+    margin-bottom: 0; }
+  .contact_us h3 {
+    margin-top: 0; }
+  .contact_us .clear {
+    margin-top: 20px; }
+
+footer {
+  border-top: 5px solid #c9c9c9;
+  background-color: #34302D;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff; }
+  footer ul {
+    margin-bottom: 80px; }
+    footer ul li {
+      display: inline-block; }
+      footer ul li a {
+        color: #fff;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-transform: uppercase; }
+        footer ul li a:hover {
+          text-decoration: underline; }

@@ -1,0 +1,32 @@
+USER SCHEMA
+
+    [
+        {
+            "id" : 00007,
+            "username" : "ChinaRed",
+            "first_name" : "Jon",
+            "last_name" : "Tan",
+            "user_photo" : "chinared_photo.png",
+            "phone" : "8087296888",
+            "email" : "jonathan.tan83@gmail.com",
+            "organization_name" : "School Venues",
+            "organization_phone" : "8088888888",
+            "organization_email" : "jtan@schoolvenues.com",
+            "organization_description" : "Our mission is to help schools raise money by monetizing their unused space",
+            "organization_logo" : "logo.png",
+        },
+        {
+            "id" : 00008,
+            "username" : "Dora",
+            "first_name" : "Joelle",
+            "last_name" : "Torneros",
+            "user_photo" : "dora_photo.png",
+            "phone" : "8085948924",
+            "email" : "dora@gmail.com.com",
+            "organization_name" : "Dora's Tacos",
+            "organization_phone" : "8089999999",
+            "organization_email" : "jtorneros@eatmytacos.com",
+            "organization_description" : "we have the freshest fish tacos",
+            "organization_logo" : "logo.png",
+        }
+    ]

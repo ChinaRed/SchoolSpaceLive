@@ -1,0 +1,24 @@
+EVENT SCHEMA
+
+    [
+        {
+            "id" : 00001,
+            "cost": "15.00",
+            "date": "2015-07-29 00:00:00",
+            "location": "Aikahi Elementary - Cafeteria",
+            "time": "1200",
+            "title": "Classic Zumba",
+            "description" : "Zumba your ass off literally",
+            "event_photo" : "zumba_photo.png",
+        },
+        {
+            "id" : 00002,
+            "cost": "10.00",
+            "date": "2015-07-30 00:00:00",
+            "location": "Aikahi Elementary - Cafeteria",
+            "time": "1800",
+            "title": "Karate Hotties",
+            "description" : "Chop and kick your way into her heart",
+            "event_photo" : "karate_photo.png",
+        }
+    ]
