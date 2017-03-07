@@ -49,13 +49,13 @@ function cycleText(){
   ];
 
   var iconList = [
-    "../assets/images/meeting.png",
-    "../assets/images/tutor.png",
-    "../assets/images/seminar.png",
-    "../assets/images/consultation.png",
-    "../assets/images/realestate.png",
-    "../assets/images/meetup.png",
-    "../assets/images/dance.png",
+    "public/assets/images/meeting.png",
+    "public/assets/images/tutor.png",
+    "public/assets/images/seminar.png",
+    "public/assets/images/consultation.png",
+    "public/assets/images/realestate.png",
+    "public/assets/images/meetup.png",
+    "public/assets/images/dance.png",
   ];
 
   var activity = $("#activity");
