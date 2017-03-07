@@ -49,13 +49,13 @@ function cycleText(){
   ];
 
   var iconList = [
-    "/assets/images/meeting.png",
-    "/assets/images/tutor.png",
-    "/assets/images/seminar.png",
-    "/assets/images/consultation.png",
-    "/assets/images/realestate.png",
-    "/assets/images/meetup.png",
-    "/assets/images/dance.png",
+    "../assets/images/meeting.png",
+    "../assets/images/tutor.png",
+    "../assets/images/seminar.png",
+    "../assets/images/consultation.png",
+    "../assets/images/realestate.png",
+    "../assets/images/meetup.png",
+    "../assets/images/dance.png",
   ];
 
   var activity = $("#activity");
